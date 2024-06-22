@@ -1,0 +1,29 @@
+The provided Java class soundApi appears to be a utility class used to handle playing sound files in an application. Here's an overview of its functionality:
+
+Methods:
+
+play_sound(): Loads and plays an audio file named "boot.wav".
+play_game_selection_screen_sound(): Loads and plays an audio file named "button_sound.wav".
+credit_screen_sound(): Loads and plays an audio file named "Credit.wav".
+references_screen_sound(): Loads and plays an audio file named "Forgotten.wav".
+easterActivate_sound(): Loads and plays an audio file named "easter2.wav".
+Functionality:
+
+The class encapsulates methods for playing various sound effects or background audio during different events or interactions within an application.
+Each method performs a similar sequence of actions: it checks if the specified audio file exists, creates an AudioInputStream, opens a Clip, and starts playing the audio.
+Usage:
+
+This class can be utilized in Java applications that require audio playback functionality.
+It simplifies the process of playing audio files by providing methods to handle different sounds/events without the need for repetitive code.
+Error Handling:
+
+The methods catch possible exceptions like IOException, UnsupportedAudioFileException, and LineUnavailableException. However, the exception handling is limited to printing error messages to the console, without handling or logging the exceptions more comprehensively.
+Please note:
+
+The code structure and naming conventions in this class are adequate for playing specific sound files.
+Depending on the specific requirements and complexity of the application, more comprehensive error handling and better organization of code can be implemented.
+
+
+
+
+

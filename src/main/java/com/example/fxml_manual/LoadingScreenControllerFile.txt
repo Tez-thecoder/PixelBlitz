@@ -1,0 +1,17 @@
+The `LoadingScreenController` class seems to be associated with an FXML file used for managing a loading screen in a JavaFX application. It includes methods to control a `ProgressBar` and execute actions when the loading process is complete.
+
+Here's a breakdown of the class:
+
+1. **FXML Injection**:
+   - An instance of `ProgressBar` is injected via `@FXML` annotation.
+   - The injected `ProgressBar` is referenced as `progressBar`.
+
+2. **`setProgress(double progress)` Method**:
+   - Updates the progress of the `ProgressBar` based on the provided `progress` value (between 0.0 and 1.0).
+   - If the progress reaches or exceeds 1.0 (100%), it executes the action specified by the `onLoadingComplete` Runnable if it has been set.
+
+3. **`setOnLoadingComplete(Runnable onLoadingComplete)` Method**:
+   - Sets the `onLoadingComplete` action to be executed when the loading progress reaches completion (i.e., when progress >= 1.0).
+   - Accepts a `Runnable` parameter, which represents the action to perform upon completion of the loading process.
+
+This controller class likely interacts with the associated FXML file and allows for controlling and updating the progress bar based on the progress of the loading operation. The `onLoadingComplete` action can be defined externally and attached to this controller to handle tasks after the loading is finished, such as transitioning to another screen or performing specific operations.

@@ -1,0 +1,32 @@
+The provided Java class PixelBlitz seems to be the main application class that launches the game. Here's a summary of its functionality:
+
+Extends Application:
+
+PixelBlitz class extends Application, which is part of the JavaFX framework.
+Start Method:
+
+start(Stage stage): This method is the entry point of the application and defines the initialization and setup of the game.
+Initializes instances of loadingAnimation, soundApi, and Welcome classes.
+Executes the welcome screen and loading animation before loading the main title screen of the game.
+Loads the title screen using an FXML file and sets it as the primary scene.
+Links a CSS file for styling the game's UI elements.
+Retrieves the controller instance from the loaded FXML and sets the stage reference for the controller.
+Sets various stage properties like title, full-screen mode, and resizable settings.
+Finally, sets the created scene to the stage and displays it.
+Main Method:
+
+main(String[] args): The entry point of the application.
+Invokes the launch() method inherited from Application, which starts the JavaFX application.
+Functionality:
+
+Launches the game by initializing and configuring the game window.
+Manages the startup sequences including loading screens and setting up the game's main title screen.
+Links CSS for styling the game's UI elements.
+Initializes sound effects using the soundApi.
+Handles the UI presentation through JavaFX Stage and Scene.
+Further Development:
+
+The class establishes the basic setup for launching the game. Further development might include integrating more game features, improving UI/UX, adding game logic, etc.
+Note:
+
+The class might be part of a larger game application, orchestrating the initialization and launch sequence.

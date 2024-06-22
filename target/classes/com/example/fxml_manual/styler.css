@@ -1,0 +1,154 @@
+/* styles.css */
+
+/* Default button style */
+#pbutton {
+    -fx-background-color: #4CAF50; /* Background color */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: #388E3C; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 30px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0, 0, 0); /* Drop shadow effect */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-background-insets: 0; /* Background insets */
+    -fx-alignment: center; /* Text alignment */
+}
+
+/* Hover effect */
+#pbutton:hover {
+    -fx-background-color: #43A047; /* Darker background color on hover */
+    -fx-border-color: #00ffbe; /* Darker border color on hover */
+
+}
+
+/* Pressed effect */
+#pbutton:pressed {
+    -fx-background-color: #388E3C; /* Slightly darker background color when pressed */
+    -fx-border-color: #1B5E20; /* Slightly darker border color when pressed */
+    -fx-effect: none; /* Remove drop shadow when pressed */
+}
+#pexit {
+    -fx-background-color: #4CAF50; /* Background color */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: #388E3C; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 30px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10, 0, 0, 0); /* Drop shadow effect */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-background-insets: 0; /* Background insets */
+    -fx-alignment: center; /* Text alignment */
+}
+
+/* Hover effect */
+#pexit:hover {
+    -fx-background-color: #43A047; /* Darker background color on hover */
+    -fx-border-color: #00ffbe; /* Darker border color on hover */
+}
+
+/* Pressed effect */
+#pexit:pressed {
+    -fx-background-color: #388E3C; /* Slightly darker background color when pressed */
+    -fx-border-color: #1B5E20; /* Slightly darker border color when pressed */
+    -fx-effect: none; /* Remove drop shadow when pressed */
+}
+/* menu bar css */
+/* styles.css */
+
+#menub {
+    -fx-background-color: #bbd5bb; /* Background color */
+    -fx-padding: 10px; /* Padding */
+    -fx-border-width: 0 0 2px 0; /* Border width (bottom) */
+    -fx-border-color: #61c453; /* Border color */
+    -fx-border-radius: 20px;
+}
+#menub:hover{
+
+    -fx-border-color: #00ffbe;
+}
+
+#menub .menu-bar {
+    -fx-background-color: transparent; /* Transparent background for the menu bar */
+    -fx-padding: 5px; /* Padding for menu items */
+}
+
+#menub .menu-bar .label {
+    -fx-text-fill: white; /* Text color for menu items */
+    -fx-font-size: 14px; /* Font size for menu items */
+    -fx-font-weight: bold; /* Bold font for menu items */
+}
+
+#menub .menu-bar .menu {
+    -fx-background-color: #455A64; /* Background color for dropdown menus */
+    -fx-text-fill: white; /* Text color for dropdown menus */
+}
+
+#menub .menu-bar .menu .menu-item {
+    -fx-background-color: #546E7A; /* Background color for menu items */
+    -fx-text-fill: white; /* Text color for menu items */
+    -fx-font-size: 13px; /* Font size for menu items */
+}
+
+#menub .menu-bar .menu .menu-item:hover {
+    -fx-background-color: #607D8B; /* Background color on hover for menu items */
+}
+#text_area_shortcut{
+    -fx-background-color: #ffffff;
+    -fx-opacity: 0;
+
+}
+#text_area_shortcut:hover{
+    -fx-transition: opacity 0.5s;
+    -fx-opacity: 0.7;
+}
+.mdb:hover{
+    -fx-border-radius: 3px;
+}
+ #b1 {
+     -fx-background-color: #000;
+     -fx-border-color: #000;
+     -fx-border-width: 1px;
+     -fx-border-radius: 4px;
+     -fx-background-insets: 0, 1;
+     -fx-background-radius: 4px;
+     -fx-box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+     -fx-text-fill: #fff;
+     -fx-cursor: hand;
+     -fx-font-family: "Nexa Heavy";
+     -fx-font-size: 16px;
+     -fx-font-weight: 400;
+     -fx-line-spacing: 20px;
+     -fx-margin: 0 5px 10px 0;
+     -fx-padding: 12px 40px;
+     -fx-alignment: center;
+ }
+
+ #b1:focused {
+     -fx-text-decoration: none;
+ }
+
+ #b1:hover {
+     -fx-text-decoration: none;
+ }
+
+ #b1:pressed {
+     -fx-background-insets: 2px, 1px;
+     -fx-box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+     -fx-outline: none;
+ }
+
+ #b1:armed {
+     -fx-background-insets: 2px, 1px;
+     -fx-box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+     -fx-translate-x: 2px;
+ }
+
+ @media (min-width: 768px) {
+     #b1 {
+         -fx-padding: 12px 50px;
+     }
+ }

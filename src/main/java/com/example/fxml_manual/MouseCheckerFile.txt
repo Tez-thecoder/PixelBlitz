@@ -1,0 +1,24 @@
+The `MouseChecker` class is an implementation of the `MouseListener` interface in Java's AWT library. This class is used to monitor mouse events within the game.
+
+Here's a breakdown of the `MouseChecker` class:
+
+1. **Purpose**:
+   - Monitors mouse events, such as mouse clicks, within the `GamePanelOne` panel.
+
+2. **Constructor**:
+   - `MouseChecker(GamePanelOne panel)`: Initializes an instance of `MouseChecker` by accepting an instance of `GamePanelOne` as a parameter.
+
+3. **Methods** (from `MouseListener` interface):
+   - `mouseClicked(MouseEvent me)`: Overrides the `mouseClicked` method from the `MouseListener` interface.
+     - Invokes the `mouseClicked` method of the associated `GamePanelOne` instance, passing the received `MouseEvent` object.
+   - `mousePressed(MouseEvent e)`, `mouseReleased(MouseEvent e)`, `mouseEntered(MouseEvent e)`, `mouseExited(MouseEvent e)`: These methods are part of the `MouseListener` interface and are not implemented in this class.
+
+4. **Usage**:
+   - Instances of `MouseChecker` are created to monitor mouse events specifically for the associated `GamePanelOne` instance.
+   - This class delegates the handling of mouse-click events to the appropriate method within the `GamePanelOne` class, specifically the `mouseClicked` method.
+
+5. **Integration**:
+   - The `MouseChecker` class can be attached to a component that accepts mouse input, allowing it to listen for and handle mouse events within that component.
+   - By using this class, the `GamePanelOne` can delegate mouse event handling to a separate class, promoting better organization and separation of concerns in the code.
+
+This setup allows for a cleaner and more organized structure where different components or panels of a game can have dedicated event listeners, handling specific user interactions with the mouse.

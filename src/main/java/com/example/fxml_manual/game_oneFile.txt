@@ -1,0 +1,15 @@
+In the provided code:
+
+1. **`game_one_i` abstract class**:
+   - It's an abstract class that declares an abstract method `game_one_event()`.
+   - Any class extending `game_one_i` must provide an implementation for the `game_one_event()` method.
+
+2. **`game_one` class**:
+   - Extends `game_one_i` and implements the `game_one_event()` method.
+   - The `game_one_event()` method initializes the Game One by printing a message and calling the `main_fun_g1()` method.
+
+3. **`main_fun_g1()` method**:
+   - This method initializes a `MainFrameOne` object, sets its size, location, title, and visibility.
+   - It creates a window for a platformer game using `JFrame`, setting some properties like size, position, title, and visibility.
+
+This code structure outlines an abstract class `game_one_i` that specifies an abstract method. Its child class `game_one` provides an implementation for that method to initialize and display a platformer game window using Swing components.

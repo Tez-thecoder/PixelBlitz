@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxml_manual.licenseController">
+   <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="License">
+      <font>
+         <Font size="30.0"/>
+      </font>
+   </Text>
+   <Text layoutX="14.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="Game License Declaration&#10;This game is licensed under the [Your License Name/Type], &#10;granting users the rights outlined below:&#10;&#10;Purpose&#10;This license applies to [Game Name], encompassing &#10;all associated content, source code, assets, &#10;and related materials.&#10;&#10;Permissions&#10;Modification: Users have permission to modify,&#10; adapt, or alter the game's source code and assets.&#10;&#10;Distribution: Users can distribute the modified or unmodified&#10; game under the same license terms.&#10;&#10;Requirements&#10;&#10;Attribution: Users must provide appropriate attribution, &#10;mentioning the original creators and contributors of the game.&#10;&#10;License Disclosure: Any redistribution or modification must retain&#10; the same license terms as the original work.&#10;&#10;Limitations&#10;&#10;No Warranty: The game is provided &quot;as is,&quot; without any warranty&#10; or guarantee of functionality, reliability, or fitness for a specific purpose.&#10;&#10;Liability: Creators, contributors, or licensors cannot be held liable for any &#10;damages or legal issues arising from the use, modification, or distribution of the game.&#10;&#10;Notes&#10;&#10;The full text of the license can be found in the accompanying license file or documentation.&#10;Users are encouraged to read, understand, and comply with the license terms before using, &#10;modifying, or distributing the game.&#10;&#10;About Open Source&#10;&#10;This game embraces the open-source philosophy, allowing users to access, modify, and &#10;share the source code freely within the &#10;defined license terms.&#10;&#10;Open-source initiatives encourage collaboration, innovation, and community involvement&#10; in the development and improvement of software.&#10;">
+      <font>
+         <Font size="17.0"/>
+      </font>
+   </Text>
+</AnchorPane>

@@ -1,0 +1,15 @@
+This `KeyChecker` class is an extension of `KeyAdapter` and serves as a bridge between keyboard input events and a `GamePanelOne` object. Here’s what it does:
+
+1. **Inheritance**:
+   - It inherits the functionalities of `KeyAdapter`, an abstract class providing default implementations for `KeyListener` methods.
+
+2. **Constructor**:
+   - It takes a `GamePanelOne` object as a parameter during instantiation.
+   - It assigns the passed `GamePanelOne` object to the local `panel` variable.
+
+3. **Event Handling**:
+   - Overrides the `keyPressed()` and `keyReleased()` methods from `KeyAdapter`.
+   - When a key is pressed or released, the corresponding method of the associated `GamePanelOne` object (`panel`) is called.
+   - These methods likely trigger actions or state changes in the `GamePanelOne` related to the keys being pressed or released.
+
+This class acts as a listener for keyboard events and relays these events to a `GamePanelOne` object, allowing the panel to respond to key presses and releases accordingly.

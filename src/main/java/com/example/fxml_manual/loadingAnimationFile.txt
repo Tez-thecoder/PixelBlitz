@@ -1,0 +1,21 @@
+This `loadingAnimation` class seems to be responsible for initializing and managing a loading animation using JavaFX. Here's a breakdown of the code:
+
+1. **ProgressBar Initialization**:
+   - The class initializes a `ProgressBar` object with an initial progress value of 0.
+
+2. **`animationLoad(Stage stage)` Method**:
+   - This method orchestrates the loading animation.
+   - Loads an FXML file named `loadingScreen.fxml` using `FXMLLoader`.
+   - Constructs an `AnchorPane` by loading the content from the FXML file.
+   - Creates a new `Scene` using the loaded `AnchorPane`.
+   - Retrieves the controller associated with the loaded FXML file using `loader.getController()`.
+
+3. **Loading Simulation**:
+   - Initializes a new `Thread` to simulate the loading process.
+   - The thread simulates a delay of 2000 milliseconds (2 seconds) using `Thread.sleep(2000)` to emulate loading.
+   - After the simulated loading completes, it updates the progress of the `ProgressBar` to 1.0 (100%) by invoking `controller.setProgress(1.0)` within the `Platform.runLater()` method. This ensures that UI updates are performed on the JavaFX application thread.
+
+4. **Exception Handling**:
+   - Catches `IOException` that might occur during the loading process and prints the stack trace.
+
+This class demonstrates a simple loading animation where a progress bar advances from 0% to 100% after a simulated loading time of 2 seconds. This kind of animation is useful to indicate progress while some background task is being performed before displaying the main content of an application.

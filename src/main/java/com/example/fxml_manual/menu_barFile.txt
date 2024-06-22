@@ -1,0 +1,32 @@
+The `menu_bar` class seems to handle various menu-related events and navigation within the application.
+
+Here's a description of the methods in the `menu_bar` class:
+
+1. **`documentation_event(Stage stage)`**:
+   - Loads the "documentation.fxml" file using `FXMLLoader` and sets its content as the scene for the provided `Stage`.
+
+2. **`references_event(Stage stage)`**:
+   - Loads the "References.fxml" file using `FXMLLoader` and sets its content as the scene for the provided `Stage`.
+
+3. **`credits_event(Stage stage)`**:
+   - Loads the "Credits.fxml" file using `FXMLLoader` and sets its content as the scene for the provided `Stage`.
+
+4. **`license_event(Stage stage)`**:
+   - Checks if the provided `Stage` is null or not and then loads the "license.fxml" file using `FXMLLoader`. Sets its content as the scene for the provided `Stage`.
+
+5. **`easter_egg_event(Stage stage)`**:
+   - Checks if the provided `Stage` is null or not and then loads the "easterEgg.fxml" file using `FXMLLoader`. Sets its content as the scene for the provided `Stage`.
+
+6. **`faq_event(Stage stage)`**:
+   - Loads the "faq.fxml" file using `FXMLLoader` and sets its content as the scene for the provided `Stage`.
+
+7. **`termsAndConditionsEvent(Stage stage)`**:
+   - Loads the "t_and_c.fxml" file using `FXMLLoader` and sets its content as the scene for the provided `Stage`.
+
+8. **`force_exit_event()`**:
+   - Calls `Platform.exit()` to force exit the application.
+
+9. **`mute_audio_event()`**:
+   - Represents an empty method, possibly intended for muting audio but not implemented in the provided code.
+
+These methods handle loading different FXML files and setting their content as scenes for the given `Stage`. Additionally, they manage certain events related to the application's menu and navigation system, such as showing documentation, references, credits, licenses, and other screens, as well as handling application exit.

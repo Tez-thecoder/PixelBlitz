@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxml_manual.titleScreen_ControllerClass">
+   <ImageView fitHeight="1000.0" fitWidth="1000.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true">
+      <Image url="@newskybg.jpg" />
+   </ImageView>
+   <Text layoutX="449.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREDITS-">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UI Designed By-Sumit Kourav">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="14.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Games By-Juzer Baatwala and Sumit Kourav">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Original Music By-Juzer Baatwala">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software Documentation By-Sumit Kourav">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Submitted to-Medi-Caps University">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Special Thanks to-Rajesh Kharche sir">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Languages Used-JavaFX,Swing,AWT,Java,CSS,FXML">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enviroment Used-Intellij IDE(Windows + MacOS)">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="17.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Package(Setup Wizard) By-Juzer Baatwala">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="18.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project Synopsis and Report By- Juzer Baatwla and Sumit Kourav">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="14.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GitHub link-https://github.com/dark733/PixelBlitz">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="13.0" layoutY="666.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This project is open source and made out of complete scratch">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="20.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BlackBox/GreyBox Testing By-Sumit Kourav">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Text layoutX="20.0" layoutY="627.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WhiteBox Testing By-Juzer Baatwala">
+      <font>
+         <Font name="Nexa Heavy" size="30.0" />
+      </font>
+   </Text>
+   <Button layoutX="789.0" layoutY="74.0" mnemonicParsing="false" onAction="#exit_f" prefHeight="48.0" prefWidth="130.0" text="Exit" />
+</AnchorPane>

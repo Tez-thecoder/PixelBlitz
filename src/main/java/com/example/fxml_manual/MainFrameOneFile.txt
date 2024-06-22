@@ -1,0 +1,21 @@
+The `MainFrameOne` class appears to extend `javax.swing.JFrame` and sets up a frame for the game by creating a `GamePanelOne` panel, which is then added to the frame.
+
+Here's a breakdown of what the `MainFrameOne` class does:
+
+1. **Constructor `MainFrameOne()`**:
+   - Creates an instance of `GamePanelOne` named `panel`.
+   - Sets the location of the `panel` to (0, 0).
+   - Sizes the `panel` to match the size of the `MainFrameOne` frame.
+   - Sets the background color of the `panel` to `Color.LIGHT_GRAY`.
+   - Makes the `panel` visible.
+   - Adds the `panel` to the `MainFrameOne` frame.
+
+2. **`addKeyListener(new KeyChecker(panel))`**:
+   - Adds an instance of `KeyChecker` as a key listener to the `MainFrameOne`.
+   - The `KeyChecker` class appears to handle keyboard input events for the `GamePanelOne`.
+
+3. **`addMouseListener(new MouseChecker(panel))`**:
+   - Adds an instance of `MouseChecker` as a mouse listener to the `MainFrameOne`.
+   - The `MouseChecker` class appears to handle mouse input events for the `GamePanelOne`.
+
+Overall, the `MainFrameOne` class sets up a main frame for the game, initializes a panel, and assigns key and mouse listeners to it for user interaction handling.

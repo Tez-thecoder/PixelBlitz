@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxml_manual.titleScreen_ControllerClass">
+   <Text layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="FAQs(Frequently Asked Questions)-&gt;">
+      <font>
+         <Font size="30.0"/>
+      </font>
+   </Text>
+   <Text layoutX="14.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0"
+         text="How do I start playing the game?&#10;&#10;To begin playing, [provide instructions on accessing the game or starting a new game].&#10;What are the game controls?&#10;&#10;[List or describe the key/mouse controls for movement, actions, or interactions in the game].&#10;How can I adjust the game settings?&#10;&#10;To adjust settings, [provide instructions on accessing and modifying game settings such as sound, graphics, etc.].&#10;Is there a way to save my progress in the game?&#10;&#10;[Explain the save system or whether the game supports automatic or manual saving].&#10;I encountered a bug/glitch. How can I report it?&#10;&#10;If you encounter any bugs or glitches, [provide instructions on reporting issues or contacting support].&#10;Can I play the game offline?&#10;&#10;Yes, the game supports offline play. [Explain any offline functionalities or limitations].&#10;Are there any system requirements to play the game?&#10;&#10;The game requires [specify minimum system requirements such as OS version, RAM, etc.].&#10;What happens if I lose connection during online gameplay?&#10;&#10;[Explain how the game handles connectivity issues or whether it saves progress in online modes].&#10;Is there a tutorial or help section available?&#10;&#10;Yes, there is a [tutorial/help section] that provides guidance on gameplay mechanics and features.&#10;Can I customize my character or settings in the game?&#10;&#10;Yes, you can [describe available customization options or features].&#10;What are the different game modes available?&#10;&#10;The game offers [list available game modes or variations].&#10;I forgot my password/username. How can I retrieve it?&#10;&#10;If you forget your [password/username], [provide instructions on retrieving or resetting it].&#10;Are there any in-game purchases or micro-transactions?&#10;&#10;Yes, the game offers [mention any in-game purchases or micro-transaction features].&#10;How often does the game receive updates or new content?&#10;&#10;Updates and new content are [released periodically/regularly]. Stay tuned for [upcoming features, updates, etc.].&#10;">
+      <font>
+         <Font size="20.0"/>
+      </font>
+   </Text>
+   <Button layoutX="853.0" layoutY="28.0" mnemonicParsing="false" onAction="#exit_f" prefHeight="35.0" prefWidth="78.0"
+           text="Exit"/>
+</AnchorPane>

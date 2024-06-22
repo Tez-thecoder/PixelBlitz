@@ -1,0 +1,25 @@
+Imports:
+
+The class imports various JavaFX and Java I/O-related packages to handle UI components, event handling, and resource loading.
+Class Declaration and Initialization:
+
+The class implements the Initializable interface from JavaFX, which requires implementing the initialize method.
+It contains instances of several other classes (soundApi, menu_bar, game_one, game_two, game_three) to handle sound, menu interactions, and game-related actions.
+FXML Attributes:
+
+Annotated with @FXML, there are attributes representing UI elements (buttons, menu items, etc.) defined in an FXML file.
+These attributes are initialized and bound to the corresponding elements in the FXML layout.
+Event Handling:
+
+Several methods annotated with @FXML are event handlers triggered by user interactions (e.g., button clicks).
+Methods like exit_f, switch_to_game_select, game_one_clicked, game_two_clicked, and others respond to specific UI actions and perform associated tasks.
+They involve playing sounds, printing messages to the console, loading different FXML views, and triggering specific events related to game actions, documentation, references, credits, etc.
+Initialization:
+
+The initialize method from the Initializable interface is empty in the provided code snippet but is typically used to initialize components or perform setup tasks when the FXML file is loaded.
+Purpose (Observation):
+
+This class control the title screen of a JavaFX application.
+It handles user interactions (button clicks, menu selections) and triggers corresponding actions like navigating to different screens, playing sounds, and printing messages for debugging or logging purposes.
+It interacts with other classes (soundApi, menu_bar, game_one, etc.) to encapsulate functionalities related to sound handling, menu operations, and game actions, following a modular approach.
+note: The provided code is specific to the UI handling of a title screen in a JavaFX application and interacts with other classes to perform various actions based on user input or events triggered in the UI.
