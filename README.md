@@ -11,3 +11,10 @@ Major reasons why this exists are-
 
 
 //Code Optimization 22/12/23
+
+
+Screen Shots
+
+
+![Screenshot (95)](https://github.com/Tez-thecoder/PixelBlitz/assets/121484378/ee69dfbe-6d03-454b-835f-5523583dede8)
+![Screenshot (96)](https://github.com/Tez-thecoder/PixelBlitz/assets/121484378/e73148eb-f35d-490a-852a-6c6a468e5198)
